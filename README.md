@@ -13,20 +13,23 @@
 
 
 
-```python3 -m venv .venv
+```
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
 ## Использование
 
-```python3 main.py
+``` 
+python3 main.py
 ```
 
 Пример использования `DummyRegressorWithFracSum`:
 
 
-```python
+```
+python
 import numpy as np
 from sklearn.dummy import DummyRegressorWithFracSum
 
