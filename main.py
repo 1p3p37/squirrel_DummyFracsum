@@ -8,7 +8,7 @@ from sklearn.metrics import (
 )
 from dummy_regressor_with_fracsum import DummyRegressorWithFracSum
 
-# Загрузим датасет по раку молочной железы 
+# Загрузим датасет по раку молочной железы
 # Он представляет собой классический и очень простой набор данных для бинарной классификации.
 data = load_breast_cancer()
 X = data.data
